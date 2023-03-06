@@ -1,0 +1,9 @@
+version: "3"
+services:
+  node:
+    build: .
+    image: multipod/demo-node-docker:latest
+    ports:
+      - "81:8080"
+    cpus: 0.5
+    mem_limit: 128M
