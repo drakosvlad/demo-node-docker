@@ -4,12 +4,12 @@ const app = express()
 const port = 8080
 
 app.get(
-    '/',
-    (req, res) => {
+  '/',
+  (req, res) => {
     res.send('Hello World!')
-    }
+  }
 )
 
 app.listen(port, () => {
-    console.log(`Example app2 listening on port ${port}`)
+  console.log(`Example app2 listening on port ${port}`)
 })
